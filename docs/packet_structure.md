@@ -21,10 +21,10 @@ Note: see the [payloads doc](./payloads.md) for more information about the conte
 
 | Value  | Name                   | Description                          |
 |--------|------------------------|--------------------------------------|
-| `0x00` | `ROUTE_TYPE_RESERVED1` | Reserved for future use.             |
-| `0x01` | `ROUTE_TYPE_FLOOD`     | Flood routing mode (builds up path). |
-| `0x02` | `ROUTE_TYPE_DIRECT`    | Direct route (path is supplied).     |
-| `0x03` | `ROUTE_TYPE_RESERVED2` | Reserved for future use.             |
+| `0x00` | `ROUTE_TYPE_TRANSPORT_FLOOD`  | Flood mode with transport codes.    |
+| `0x01` | `ROUTE_TYPE_FLOOD`           | Flood routing mode (builds up path). |
+| `0x02` | `ROUTE_TYPE_DIRECT`          | Direct route (path is supplied).     |
+| `0x03` | `ROUTE_TYPE_TRANSPORT_DIRECT` | Direct route with transport codes.   |
 
 ## Payload Type Values
 
