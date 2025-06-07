@@ -63,6 +63,7 @@ The companion firmware can be connected to via BLE, USB or WiFi depending on the
 - iOS: https://apps.apple.com/us/app/meshcore/id6742354151?platform=iphone
 - NodeJS: https://github.com/liamcottle/meshcore.js
 - Python: https://github.com/fdlamotte/meshcore-cli
+- Python example: see `examples/python/send_image_ble.py` for a GUI-based tool to send an image via BLE
 
 **Repeater and Room Server Firmware**
 
